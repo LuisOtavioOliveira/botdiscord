@@ -10,7 +10,7 @@ const getItem = () => {
 module.exports = {
    data: new SlashCommandBuilder()
     .setName("testecomando")
-    .setDescription("Responde com 'Tá funcionando.'"),
+    .setDescription("Responde com 'Tá testando.'"),
 
     async execute(interaction) {
     await interaction.reply(getItem())
